@@ -1,6 +1,9 @@
-GPU=0
+# set GPU=1 if you have and want to use GPU, else set GPU=0
+GPU=1
 CUDNN=0
-OPENCV=0
+
+# set OPENCV=1 if you want to compile with opencv
+OPENCV=1
 OPENMP=0
 DEBUG=0
 

@@ -1,3 +1,10 @@
+// refered: https://pjreddie.com/darknet/yolo/ for installation and running
+
+// To run demo on RTSP video use: ./darknet detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights 'rtsp://admin:Admin.embd5!324@192.168.19.103'
+// you may need to do if get some opencv.so error: 
+// 1. export LD_LIBRARY_PATH=/home/tapas/Documents/opencv-4.5.1/exe/lib:$LD_LIBRARY_PATH 
+// 2. sudo ldconfig
+
 #include "network.h"
 #include "detection_layer.h"
 #include "region_layer.h"
